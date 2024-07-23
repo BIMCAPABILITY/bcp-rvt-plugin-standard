@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SandeepSikdar\\source\\repos\\bimcapPluginTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F20604FC-B125-4D13-8D78-C61A4FD1C2A5}|bimcapPlugin.csproj|c:\\users\\sandeepsikdar\\source\\repos\\bimcapplugintest\\management_tab\\isolatebywarnings_feature\\isolateui.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20604FC-B125-4D13-8D78-C61A4FD1C2A5}|bimcapPlugin.csproj|solutionrelative:management_tab\\isolatebywarnings_feature\\isolateui.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20604FC-B125-4D13-8D78-C61A4FD1C2A5}|bimcapPlugin.csproj|c:\\users\\sandeepsikdar\\source\\repos\\bimcapplugintest\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20604FC-B125-4D13-8D78-C61A4FD1C2A5}|bimcapPlugin.csproj|solutionrelative:command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20604FC-B125-4D13-8D78-C61A4FD1C2A5}|bimcapPlugin.csproj|C:\\Users\\SandeepSikdar\\source\\repos\\bimcapPluginTest\\management_tab\\isolatebywarnings_feature\\isolateui.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F20604FC-B125-4D13-8D78-C61A4FD1C2A5}|bimcapPlugin.csproj|solutionrelative:management_tab\\isolatebywarnings_feature\\isolateui.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20604FC-B125-4D13-8D78-C61A4FD1C2A5}|bimcapPlugin.csproj|C:\\Users\\SandeepSikdar\\source\\repos\\bimcapPluginTest\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20604FC-B125-4D13-8D78-C61A4FD1C2A5}|bimcapPlugin.csproj|solutionrelative:properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20604FC-B125-4D13-8D78-C61A4FD1C2A5}|bimcapPlugin.csproj|C:\\Users\\SandeepSikdar\\source\\repos\\bimcapPluginTest\\packagecontents.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F20604FC-B125-4D13-8D78-C61A4FD1C2A5}|bimcapPlugin.csproj|solutionrelative:packagecontents.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20604FC-B125-4D13-8D78-C61A4FD1C2A5}|isolateByWarnings.csproj|C:\\Users\\SandeepSikdar\\source\\repos\\bimcapPluginTest\\packagecontents.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F20604FC-B125-4D13-8D78-C61A4FD1C2A5}|isolateByWarnings.csproj|solutionrelative:packagecontents.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20604FC-B125-4D13-8D78-C61A4FD1C2A5}|bimcapPlugin.csproj|C:\\Users\\SandeepSikdar\\source\\repos\\bimcapPluginTest\\bimcapplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20604FC-B125-4D13-8D78-C61A4FD1C2A5}|bimcapPlugin.csproj|solutionrelative:bimcapplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20604FC-B125-4D13-8D78-C61A4FD1C2A5}|bimcapPlugin.csproj|C:\\Users\\SandeepSikdar\\source\\repos\\bimcapPluginTest\\bimcapplugin.addin||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F20604FC-B125-4D13-8D78-C61A4FD1C2A5}|bimcapPlugin.csproj|solutionrelative:bimcapplugin.addin||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20604FC-B125-4D13-8D78-C61A4FD1C2A5}|bimcapPlugin.csproj|C:\\Users\\SandeepSikdar\\source\\repos\\bimcapPluginTest\\about_tab\\openwebsitecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20604FC-B125-4D13-8D78-C61A4FD1C2A5}|bimcapPlugin.csproj|solutionrelative:about_tab\\openwebsitecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20604FC-B125-4D13-8D78-C61A4FD1C2A5}|bimcapPlugin.csproj|C:\\Users\\SandeepSikdar\\source\\repos\\bimcapPluginTest\\about_tab\\openversioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20604FC-B125-4D13-8D78-C61A4FD1C2A5}|bimcapPlugin.csproj|solutionrelative:about_tab\\openversioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Command.cs",
+              "DocumentMoniker": "C:\\Users\\SandeepSikdar\\source\\repos\\bimcapPluginTest\\Command.cs",
+              "RelativeDocumentMoniker": "Command.cs",
+              "ToolTip": "C:\\Users\\SandeepSikdar\\source\\repos\\bimcapPluginTest\\Command.cs",
+              "RelativeToolTip": "Command.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwAoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T04:25:32.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PackageContents.xml",
+              "DocumentMoniker": "C:\\Users\\SandeepSikdar\\source\\repos\\bimcapPluginTest\\PackageContents.xml",
+              "RelativeDocumentMoniker": "PackageContents.xml",
+              "ToolTip": "C:\\Users\\SandeepSikdar\\source\\repos\\bimcapPluginTest\\PackageContents.xml",
+              "RelativeToolTip": "PackageContents.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-07-22T08:37:06.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "isolateUI.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\SandeepSikdar\\source\\repos\\bimcapPluginTest\\management_tab\\isolateByWarnings_feature\\isolateUI.xaml.cs",
+              "RelativeDocumentMoniker": "management_tab\\isolateByWarnings_feature\\isolateUI.xaml.cs",
+              "ToolTip": "C:\\Users\\SandeepSikdar\\source\\repos\\bimcapPluginTest\\management_tab\\isolateByWarnings_feature\\isolateUI.xaml.cs",
+              "RelativeToolTip": "management_tab\\isolateByWarnings_feature\\isolateUI.xaml.cs",
+              "ViewState": "AQIAABIDAAAAAAAAAAAAAAUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T07:52:45.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "isolateUI.xaml",
+              "DocumentMoniker": "C:\\Users\\SandeepSikdar\\source\\repos\\bimcapPluginTest\\management_tab\\isolateByWarnings_feature\\isolateUI.xaml",
+              "RelativeDocumentMoniker": "management_tab\\isolateByWarnings_feature\\isolateUI.xaml",
+              "ToolTip": "C:\\Users\\SandeepSikdar\\source\\repos\\bimcapPluginTest\\management_tab\\isolateByWarnings_feature\\isolateUI.xaml",
+              "RelativeToolTip": "management_tab\\isolateByWarnings_feature\\isolateUI.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-18T07:52:19.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "bimcapPlugin.addin",
+              "DocumentMoniker": "C:\\Users\\SandeepSikdar\\source\\repos\\bimcapPluginTest\\bimcapPlugin.addin",
+              "RelativeDocumentMoniker": "bimcapPlugin.addin",
+              "ToolTip": "C:\\Users\\SandeepSikdar\\source\\repos\\bimcapPluginTest\\bimcapPlugin.addin",
+              "RelativeToolTip": "bimcapPlugin.addin",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000072|",
+              "WhenOpened": "2024-07-18T07:38:12.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PackageContents.xml",
+              "DocumentMoniker": "C:\\Users\\SandeepSikdar\\source\\repos\\bimcapPluginTest\\PackageContents.xml",
+              "RelativeDocumentMoniker": "PackageContents.xml",
+              "ToolTip": "C:\\Users\\SandeepSikdar\\source\\repos\\bimcapPluginTest\\PackageContents.xml",
+              "RelativeToolTip": "PackageContents.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-07-18T07:36:29.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\SandeepSikdar\\source\\repos\\bimcapPluginTest\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\SandeepSikdar\\source\\repos\\bimcapPluginTest\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Properties\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAB3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T07:52:51.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "openWebsiteCommand.cs",
+              "DocumentMoniker": "C:\\Users\\SandeepSikdar\\source\\repos\\bimcapPluginTest\\about_tab\\openWebsiteCommand.cs",
+              "RelativeDocumentMoniker": "about_tab\\openWebsiteCommand.cs",
+              "ToolTip": "C:\\Users\\SandeepSikdar\\source\\repos\\bimcapPluginTest\\about_tab\\openWebsiteCommand.cs",
+              "RelativeToolTip": "about_tab\\openWebsiteCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T07:41:19.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "openVersionCommand.cs",
+              "DocumentMoniker": "C:\\Users\\SandeepSikdar\\source\\repos\\bimcapPluginTest\\about_tab\\openVersionCommand.cs",
+              "RelativeDocumentMoniker": "about_tab\\openVersionCommand.cs",
+              "ToolTip": "C:\\Users\\SandeepSikdar\\source\\repos\\bimcapPluginTest\\about_tab\\openVersionCommand.cs",
+              "RelativeToolTip": "about_tab\\openVersionCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T07:39:46.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "bimcapPlugin.cs",
+              "DocumentMoniker": "C:\\Users\\SandeepSikdar\\source\\repos\\bimcapPluginTest\\bimcapPlugin.cs",
+              "RelativeDocumentMoniker": "bimcapPlugin.cs",
+              "ToolTip": "C:\\Users\\SandeepSikdar\\source\\repos\\bimcapPluginTest\\bimcapPlugin.cs",
+              "RelativeToolTip": "bimcapPlugin.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowEcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T11:01:21.833Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
