@@ -1,6 +1,6 @@
 # BIMCAP Plugin
 
-### <div align="center">🚀 PLUGIN </div>
+### <div align="center">🚀 BIMCAP Plugin Standard </div>
 
 This repository is where you can find our latest Revit plugins to help you become more productive and efficient in Revit.
 
@@ -14,7 +14,7 @@ This repository is where you can find our latest Revit plugins to help you becom
 </div>
 
 ## Current Release Code
-[![Release]([https://img.shields.io/github/v/release/BIMCAPABILITY/bcp-rvt-plugin-standard](https://github.com/BIMCAPABILITY/bcp-rvt-plugin-standard/releases/tag/v1.0.0))](https://github.com/BIMCAPABILITY/bcp-rvt-plugin-standard/releases/tag/v1.0.0)
+[Release](https://github.com/BIMCAPABILITY/bcp-rvt-plugin-standard/releases/tag/v1.0.0)
 
 ## Version
 **1.0.0 - BIMCAP Plugin Version 1.0.0**
