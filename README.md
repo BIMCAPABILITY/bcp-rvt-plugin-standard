@@ -2,7 +2,7 @@
 
 ### <div align="center">🚀 BIMCAP Plugin Standard </div>
 
-This repository is where you can find our latest Revit plugins to help you become more productive and efficient in Revit.
+The repository for plugin suits consists of multiple free version features.
 
 <br/>
 
