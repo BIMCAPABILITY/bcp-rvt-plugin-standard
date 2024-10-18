@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+	<AddIn Type="Application">
+		<Name>BIMKIT</Name>
+		<Assembly>bimkit.dll</Assembly>
+		<AddInId>CAE26F65-A6EB-439F-B768-10F5ACFB93AB</AddInId>
+		<FullClassName>bimkit.bimkit</FullClassName>
+		<VendorId>BIMCAP</VendorId>
+		<VendorDescription>BIM tool solutions that are built for solving modeling and information management tasks.</VendorDescription>
+		<Description>https://bimcap.com</Description>
+	</AddIn>
+</RevitAddIns>

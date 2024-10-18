@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace bimcapPlugin.about_tab
+namespace bimkit.about_tab
 {
     [Transaction(TransactionMode.Manual)]
     public class OpenWebsiteCommand : IExternalCommand

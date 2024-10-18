@@ -1,6 +1,7 @@
 ﻿using Autodesk.Revit.Attributes;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
+using bimkit.sheet_tools.alignTags_feature;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -8,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace bimcapPlugin
+namespace bimkit
 {
     internal class Command
     {
@@ -47,7 +48,32 @@ namespace bimcapPlugin
 
                 // Create and show the isolateUI window
                 isolateUI view = new isolateUI(commandData);
-                view.SetTitleBarImage(revitVersion); // Pass the Revit version to the method
+                view.SetTitleBarImage(); 
+                view.ShowDialog();
+            }
+            catch (Exception ex)
+            {
+                message = ex.Message;
+                return Result.Failed;
+            }
+
+            return Result.Succeeded;
+        }
+    }
+
+    [Transaction(TransactionMode.Manual)]
+    public class ShowAlignTagUI : IExternalCommand
+    {
+        public Result Execute(
+            ExternalCommandData commandData,
+            ref string message,
+            ElementSet elements)
+        {
+            try
+            {
+                // Create and show the alignTagUI window
+                alignTagUI view = new alignTagUI(commandData);
+                view.SetTitleBarImage();
                 view.ShowDialog();
             }
             catch (Exception ex)

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("BIMCAP Plugin")]
+[assembly: AssemblyTitle("BIMKIT")]
 [assembly: AssemblyDescription("BIM tool solutions that are built for solving modeling and information management tasks")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("BIMCAP")]
-[assembly: AssemblyProduct("BIMCAP Plugin")]
+[assembly: AssemblyProduct("BIMKIT")]
 [assembly: AssemblyCopyright("Copyright ©  2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("BBCA5077-2C2C-4E1F-81F4-9A17D95C9721")]
+[assembly: Guid("CAE26F65-A6EB-439F-B768-10F5ACFB93AB")]
 
 // Version information for an assembly consists of the following four values:
 //

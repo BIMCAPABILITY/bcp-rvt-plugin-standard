@@ -9,3 +9,14 @@ C:\Users\SandeepSikdar\Source\Repos\bimcapPluginTest\obj\Debug\bimcapPlugin.g.re
 C:\Users\SandeepSikdar\Source\Repos\bimcapPluginTest\obj\Debug\bimcapPlugin.csproj.CoreCompileInputs.cache
 C:\Users\SandeepSikdar\Source\Repos\bimcapPluginTest\obj\Debug\bimcapPlugin.dll
 C:\Users\SandeepSikdar\Source\Repos\bimcapPluginTest\obj\Debug\bimcapPlugin.pdb
+C:\Users\SandeepSikdar\source\repos\bimcapPlugin\bin\Debug\bimcapPlugin.dll
+C:\Users\SandeepSikdar\source\repos\bimcapPlugin\bin\Debug\bimcapPlugin.pdb
+C:\Users\SandeepSikdar\source\repos\bimcapPlugin\obj\Debug\bimcapPlugin.csproj.AssemblyReference.cache
+C:\Users\SandeepSikdar\source\repos\bimcapPlugin\obj\Debug\management_tab\isolateByWarnings_feature\isolateUI.g.cs
+C:\Users\SandeepSikdar\source\repos\bimcapPlugin\obj\Debug\bimcapPlugin_MarkupCompile.cache
+C:\Users\SandeepSikdar\source\repos\bimcapPlugin\obj\Debug\bimcapPlugin_MarkupCompile.lref
+C:\Users\SandeepSikdar\source\repos\bimcapPlugin\obj\Debug\management_tab\isolateByWarnings_feature\isolateUI.baml
+C:\Users\SandeepSikdar\source\repos\bimcapPlugin\obj\Debug\bimcapPlugin.g.resources
+C:\Users\SandeepSikdar\source\repos\bimcapPlugin\obj\Debug\bimcapPlugin.csproj.CoreCompileInputs.cache
+C:\Users\SandeepSikdar\source\repos\bimcapPlugin\obj\Debug\bimcapPlugin.dll
+C:\Users\SandeepSikdar\source\repos\bimcapPlugin\obj\Debug\bimcapPlugin.pdb
