@@ -37,8 +37,28 @@ namespace bimkit.sheet_tools.alignTags_feature
             // Set the slider's initial value to match the default offset
             OffsetSlider.Value = Offset;
             SetTitleBarImage(); // Set the title bar image on initialization
-        }
 
+            // Add event handler for text box changes
+            OffsetTextBox.TextChanged += OffsetTextBox_TextChanged;
+        }
+        private void OffsetSlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            Offset = e.NewValue;
+            OffsetTextBox.Text = Offset.ToString("F0"); // Update the text box with the slider value
+        }
+        private void OffsetTextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            if (double.TryParse(OffsetTextBox.Text, out double newOffset))
+            {
+                Offset = newOffset;
+                OffsetSlider.Value = Offset; // Update the slider with the text box value
+            }
+        }
+        // Conversion from mm to feet
+        public double GetOffsetInFeet()
+        {
+            return Offset / 304.8;
+        }
         private void AlignButton_Click(object sender, RoutedEventArgs e)
         {
             // Determine the selected angle
@@ -56,19 +76,6 @@ namespace bimkit.sheet_tools.alignTags_feature
             //this.DialogResult = true;
             //this.Close();
         }
-
-        private void OffsetSlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
-        {
-            Offset = e.NewValue;
-            OffsetTextBox.Text = Offset.ToString("F0"); // Update the text box with the slider value
-        }
-
-        // Conversion from mm to feet
-        public double GetOffsetInFeet()
-        {
-            return Offset / 304.8;
-        }
-
         public void SetTitleBarImage()
         {
             // Define the base path for the plugin resources
@@ -361,6 +368,11 @@ namespace bimkit.sheet_tools.alignTags_feature
                         }
                         else if (tag is SpatialElementTag spatialTag)
                         {
+                            if (!spatialTag.HasLeader)
+                            {
+                                // Enable the leader line
+                                spatialTag.HasLeader = true;
+                            }
                             AlignSpatialTag(doc, spatialTag, targetPoint, currentY, offset, angle);
                         }
 
@@ -380,6 +392,11 @@ namespace bimkit.sheet_tools.alignTags_feature
 
         private void SetTagToFreeEnd(Document doc, IndependentTag tag)
         {
+            if (!tag.HasLeader)
+            {
+                // Enable the leader line
+                tag.HasLeader = true;
+            }
             // Check if the tag's leader can be set to free end
             if (tag.HasLeader && tag.LeaderEndCondition != LeaderEndCondition.Free)
             {
