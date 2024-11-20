@@ -275,9 +275,12 @@ namespace bimkit.sheet_tools.alignTags_feature
                     }
                 } while (true);
             }
+            catch (Exception ex) when (ex.Message.Contains("The user aborted the pick operation"))
+            {
+                MessageBox.Show("The user aborted the pick operation. Please click the plugin button again to restart the process.");
+            }
             catch (Exception ex)
             {
-                // Handle other exceptions
                 MessageBox.Show($"An error occurred: {ex.Message}");
             }
         }
@@ -433,12 +436,30 @@ namespace bimkit.sheet_tools.alignTags_feature
 
         private void AlignSpatialTag(Document doc, SpatialElementTag spatialTag, XYZ targetPoint, double currentY, double offset, double angle)
         {
-            // Check if the spatial tag has a location point or curve
-            if (spatialTag.Location is LocationPoint locationPoint)
+            // Assuming 'spatialTag' is your SpatialElementTag element
+            ElementId typeId = spatialTag.GetTypeId();
+            FamilySymbol tagType = spatialTag.Document.GetElement(typeId) as FamilySymbol;
+
+            if (tagType != null)
             {
-                // Move the element to the new position with offset
-                XYZ newPoint = new XYZ(targetPoint.X, currentY-1, locationPoint.Point.Z);
-                locationPoint.Point = newPoint;
+                string tagTypeName = tagType.Name;
+
+                if (spatialTag.Location is LocationPoint locationPoint)
+                {
+                    // Adjust currentY based on the tag type
+                    if (tagTypeName == "Room Tag" ||
+            tagTypeName == "Space Tag" ||
+            tagTypeName == "Area Tag" ||
+            tagTypeName == "Keynote Tag" ||
+            tagTypeName == "Material Tag" ||
+            tagTypeName == "Multi-Category Tag")
+                    {
+                        currentY -= 1;
+                    }
+                    // Move the element to the new position with offset
+                    XYZ newPoint = new XYZ(targetPoint.X, currentY, locationPoint.Point.Z);
+                    locationPoint.Point = newPoint;
+                }
             }
             else if (spatialTag.Location is LocationCurve locationCurve)
             {
@@ -476,9 +497,21 @@ namespace bimkit.sheet_tools.alignTags_feature
                     // Calculate the new elbow position
                     XYZ newLeaderHead = spatialTag.TagHeadPosition;
                     XYZ elbowPosition = CalculateElbowPosition(newLeaderHead, leaderEnd, angle, offset);
-
-                    // Modify the Y value of the elbow position
-                    double modifiedY = elbowPosition.Y+1.25; // Example modification
+                    double modifiedY = elbowPosition.Y;
+                    if (tagType != null)
+                    {
+                        string tagTypeName = tagType.Name;
+                        if (tagTypeName == "Room Tag" ||
+        tagTypeName == "Space Tag" ||
+        tagTypeName == "Area Tag" ||
+        tagTypeName == "Keynote Tag" ||
+        tagTypeName == "Material Tag" ||
+        tagTypeName == "Multi-Category Tag")
+                        {
+                                modifiedY = elbowPosition.Y+1.25; // Example modification elbowPosition.Y+1.25
+                            }
+                    }
+                    
                     XYZ modifiedElbowPosition = new XYZ(elbowPosition.X, modifiedY, elbowPosition.Z);
 
                     // Set the leader elbow position

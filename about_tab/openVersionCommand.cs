@@ -17,7 +17,7 @@ namespace bimkit.about_tab
         {
             // Define the plugin version and release date
             string pluginVersion = "1.0.0"; // Replace with your version
-            string releaseDate = "06-09-2024"; // Replace with your release date
+            string releaseDate = "24-10-2024"; // Replace with your release date
 
             // Display the dialog box with the version and release date
             TaskDialog.Show("Plugin Information", $"Plugin Version: {pluginVersion}\nRelease Date: {releaseDate}");

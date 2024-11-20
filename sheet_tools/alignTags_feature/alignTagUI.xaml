@@ -30,7 +30,7 @@
             <Label Margin="25,156,0,0" Content="Select leader angle" FontSize="16" FontWeight="Bold" HorizontalAlignment="Left" Width="269" Height="32" VerticalAlignment="Top"/>
             <RadioButton x:Name="Angle90RadioButton" Content="90°" HorizontalAlignment="Left" Margin="30,193,0,0" VerticalAlignment="Top" IsChecked="True"/>
             <RadioButton x:Name="Angle45RadioButton" Content="45°" HorizontalAlignment="Left" Margin="135,192,0,0" VerticalAlignment="Top"/>
-            <Button Content="Align" HorizontalAlignment="Right" Margin="0,187,30,0" VerticalAlignment="Top" Width="100" Click="AlignButton_Click"/>
+            <Button Content="Align" HorizontalAlignment="Right" Margin="0,180,30,0" VerticalAlignment="Top" Height="30" Width="100" Click="AlignButton_Click"/>
             <TextBlock HorizontalAlignment="Left" Margin="30,224,0,0" VerticalAlignment="Top">
                 <Hyperlink NavigateUri="https://www.bimcap.com/" RequestNavigate="Hyperlink_RequestNavigate">
                     <Run Text="Copyright © 2024 BIMCAP"/>

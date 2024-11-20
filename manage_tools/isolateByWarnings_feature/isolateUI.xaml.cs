@@ -229,6 +229,10 @@ namespace bimkit
                     trans.Commit();
                 }
             }
+            catch (Exception ex) when (ex.Message.Contains("View cannot use temporary visibility modes."))
+            {
+                MessageBox.Show("The view is not selected. Please click anywhere in the view behind and then use the tool.");
+            }
             catch (Exception ex)
             {
                 MessageBox.Show($"An error occurred: {ex.Message}");
@@ -270,9 +274,13 @@ namespace bimkit
             {
                 MessageBox.Show("A view with the same name already exists. Please try again with a different prefix or suffix to create a unique view name.");
             }
+            catch (Exception ex) when (ex.Message.Contains("View cannot be duplicated"))
+            {
+                MessageBox.Show("The view is not selected. Please click anywhere in the view behind and then use the tool.");
+            }
             catch (Exception ex)
             {
-                MessageBox.Show($"An unexpected error occurred: {ex.Message}");
+                MessageBox.Show($"An unexpected error occurred   : {ex.Message}");
             }
         }
 
@@ -375,6 +383,10 @@ namespace bimkit
             catch (Autodesk.Revit.Exceptions.ArgumentException ex) when (ex.Message.Contains("Name must be unique"))
             {
                 MessageBox.Show("A view with the same name already exists. Please try again with a different prefix or suffix to create a unique view name.");
+            }
+            catch (Exception ex) when (ex.Message.Contains("View cannot be duplicated"))
+            {
+                MessageBox.Show("The view is not selected. Please click anywhere in the view behind and then use the tool.");
             }
             catch (Exception ex)
             {

@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SandeepSikdar\\source\\repos\\bimkit\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F20604FC-B125-4D13-8D78-C61A4FD1C2A5}|bimkit.csproj|c:\\users\\sandeepsikdar\\source\\repos\\bimkit\\bimkit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20604FC-B125-4D13-8D78-C61A4FD1C2A5}|bimkit.csproj|solutionrelative:bimkit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20604FC-B125-4D13-8D78-C61A4FD1C2A5}|bimkit.csproj|C:\\Users\\SandeepSikdar\\source\\repos\\bimkit\\sheet_tools\\aligntags_feature\\aligntagui.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20604FC-B125-4D13-8D78-C61A4FD1C2A5}|bimkit.csproj|solutionrelative:sheet_tools\\aligntags_feature\\aligntagui.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20604FC-B125-4D13-8D78-C61A4FD1C2A5}|bimkit.csproj|C:\\Users\\SandeepSikdar\\source\\repos\\bimkit\\manage_tools\\isolatebywarnings_feature\\isolateui.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20604FC-B125-4D13-8D78-C61A4FD1C2A5}|bimkit.csproj|solutionrelative:manage_tools\\isolatebywarnings_feature\\isolateui.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20604FC-B125-4D13-8D78-C61A4FD1C2A5}|bimkit.csproj|C:\\Users\\SandeepSikdar\\source\\repos\\bimkit\\about_tab\\openversioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20604FC-B125-4D13-8D78-C61A4FD1C2A5}|bimkit.csproj|solutionrelative:about_tab\\openversioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "bimkit.cs",
+              "DocumentMoniker": "C:\\Users\\SandeepSikdar\\source\\repos\\bimkit\\bimkit.cs",
+              "RelativeDocumentMoniker": "bimkit.cs",
+              "ToolTip": "C:\\Users\\SandeepSikdar\\source\\repos\\bimkit\\bimkit.cs",
+              "RelativeToolTip": "bimkit.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T05:41:59.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "openVersionCommand.cs",
+              "DocumentMoniker": "C:\\Users\\SandeepSikdar\\source\\repos\\bimkit\\about_tab\\openVersionCommand.cs",
+              "RelativeDocumentMoniker": "about_tab\\openVersionCommand.cs",
+              "ToolTip": "C:\\Users\\SandeepSikdar\\source\\repos\\bimkit\\about_tab\\openVersionCommand.cs",
+              "RelativeToolTip": "about_tab\\openVersionCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T05:07:20.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "isolateUI.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\SandeepSikdar\\source\\repos\\bimkit\\manage_tools\\isolateByWarnings_feature\\isolateUI.xaml.cs",
+              "RelativeDocumentMoniker": "manage_tools\\isolateByWarnings_feature\\isolateUI.xaml.cs",
+              "ToolTip": "C:\\Users\\SandeepSikdar\\source\\repos\\bimkit\\manage_tools\\isolateByWarnings_feature\\isolateUI.xaml.cs",
+              "RelativeToolTip": "manage_tools\\isolateByWarnings_feature\\isolateUI.xaml.cs",
+              "ViewState": "AQIAANcAAAAAAAAAAADwv/IAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T12:14:53.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "alignTagUI.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\SandeepSikdar\\source\\repos\\bimkit\\sheet_tools\\alignTags_feature\\alignTagUI.xaml.cs",
+              "RelativeDocumentMoniker": "sheet_tools\\alignTags_feature\\alignTagUI.xaml.cs",
+              "ToolTip": "C:\\Users\\SandeepSikdar\\source\\repos\\bimkit\\sheet_tools\\alignTags_feature\\alignTagUI.xaml.cs",
+              "RelativeToolTip": "sheet_tools\\alignTags_feature\\alignTagUI.xaml.cs",
+              "ViewState": "AQIAAO8AAAAAAAAAAAAcwBUBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T09:13:29.023Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

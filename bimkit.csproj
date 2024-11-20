@@ -119,13 +119,13 @@ set BUILD_DIR=$(ProjectDir)bin\Debug
 set PLUGIN_DIR=BIMKIT.bundle\Contents
 
 :: Create the plugin directory if it doesn't exist
-if not exist "%25ADDIN_DIR%25\%25PLUGIN_DIR%25\2020-2024" (
-    mkdir "%25ADDIN_DIR%25\%25PLUGIN_DIR%25"\2020-2024
+if not exist "%25ADDIN_DIR%25\%25PLUGIN_DIR%25\2022-2024" (
+    mkdir "%25ADDIN_DIR%25\%25PLUGIN_DIR%25"\2022-2024
 )
 
 :: Copy the addin and DLL files
-copy "%25PROJECT_DIR%25bimkit.addin" "%25ADDIN_DIR%25\%25PLUGIN_DIR%25\2020-2024"
-copy "%25BUILD_DIR%25\bimkit.dll" "%25ADDIN_DIR%25\%25PLUGIN_DIR%25\2020-2024"
+copy "%25PROJECT_DIR%25bimkit.addin" "%25ADDIN_DIR%25\%25PLUGIN_DIR%25\2022-2024"
+copy "%25BUILD_DIR%25\bimkit.dll" "%25ADDIN_DIR%25\%25PLUGIN_DIR%25\2022-2024"
 
 :: Create the Resources directory if it doesn't exist
 if not exist "%25ADDIN_DIR%25\%25PLUGIN_DIR%25\Resources" (
