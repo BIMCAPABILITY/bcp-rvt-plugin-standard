@@ -21,7 +21,7 @@ The repository for plugin suits consists of multiple free version features.
 
 ### New Features
 - Isolate Warnings Tool
-- Compatible with Revit v2020, v2021, v2022, v2023, v2024, v2025
+- Compatible with Revit v2022, v2023, v2024, v2025
 
 ## General Description
 The "BIMCAP Plugin" for Autodesk Revit is designed to help users efficiently manage their Revit projects and the "Isolate Warnings" tool will help you isolate elements on different view to resolve them with different filter types within their Revit projects. This tool provides several key features to enhance the user's workflow:
