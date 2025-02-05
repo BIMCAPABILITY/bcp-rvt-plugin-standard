@@ -22,3 +22,9 @@ C:\Users\SandeepSikdar\source\repos\bimkit\obj\Debug\manage_tools\isolateByWarni
 C:\Users\SandeepSikdar\source\repos\bimkit\obj\Debug\sheet_tools\alignTags_feature\alignTagUI.g.cs
 C:\Users\SandeepSikdar\source\repos\bimkit\obj\Debug\manage_tools\isolateByWarnings_feature\isolateUI.baml
 C:\Users\SandeepSikdar\source\repos\bimkit\obj\Debug\sheet_tools\alignTags_feature\alignTagUI.baml
+C:\Users\SandeepSikdar\source\repos\bimkit\obj\Debug\sheet_tools\gridBubbleToggle_feature\GridActionWindow.baml
+C:\Users\SandeepSikdar\source\repos\bimkit\obj\Debug\sheet_tools\gridBubbleToggle_feature\GridActionWindow.g.cs
+C:\Users\SandeepSikdar\source\repos\bimkit\obj\Debug\sheet_tools\titleBlockEditor_feature\MainWindow.baml
+C:\Users\SandeepSikdar\source\repos\bimkit\obj\Debug\sheet_tools\titleBlockEditor_feature\SheetPropertiesWindow.baml
+C:\Users\SandeepSikdar\source\repos\bimkit\obj\Debug\sheet_tools\titleBlockEditor_feature\MainWindow.g.cs
+C:\Users\SandeepSikdar\source\repos\bimkit\obj\Debug\sheet_tools\titleBlockEditor_feature\SheetPropertiesWindow.g.cs

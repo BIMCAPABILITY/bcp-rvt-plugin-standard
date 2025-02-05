@@ -23,8 +23,8 @@
             </Border>
 
             <!-- Main Content -->
-            <TextBlock HorizontalAlignment="Right" Margin="0,45,30,0" TextWrapping="Wrap" Text="Version: 1.0.0" VerticalAlignment="Top"/>
-            <TextBlock HorizontalAlignment="Right" Margin="0,61,30,0" TextWrapping="Wrap" Text="Isolate 2D and 3D Elements According to Warning Types" VerticalAlignment="Top"/>
+            <TextBlock HorizontalAlignment="Right" Margin="0,45,30,0" TextWrapping="Wrap" Text="Version: 1.1.0" VerticalAlignment="Top"/>
+            <TextBlock HorizontalAlignment="Right" Margin="0,61,30,0" TextWrapping="Wrap" Text="Isolate 3D Elements According to Warning Types" VerticalAlignment="Top"/>
             <Grid Margin="18,40,18,10">
                 <Grid.RowDefinitions>
                     <RowDefinition/>
@@ -87,7 +87,7 @@
                     </Grid.RowDefinitions>
                     <!--<Button Content="Advance Settings" HorizontalAlignment="Left" Width="100" Margin="15,0,0,0" Height="30" Click="ResetColor_Click"/>-->
                     <!--<Button Content="Reset Color" HorizontalAlignment="Right" Width="100" Margin="0,0,120,0" Height="30" Click="ResetColor_Click"/>-->
-                    <Button Content="Isolate Elements" HorizontalAlignment="Right" Width="100" Margin="5,0,10,0" Height="30" Click="FetchElementsButton_Click"/>
+                    <Button Content="Isolate Elements" HorizontalAlignment="Right" Width="100" Margin="5,0,10,0" Height="30" Click="FetchElementsButton_Click" BorderBrush="Green"/>
                     <StackPanel Width="230" Height="35" Margin="20,0,0,0" HorizontalAlignment="Left">
                         <TextBlock Text="{Binding ElementCount, StringFormat=Total Elements Isolated: {0}}"/>
                         <TextBlock>

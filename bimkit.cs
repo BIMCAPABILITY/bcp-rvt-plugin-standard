@@ -39,6 +39,9 @@ namespace bimkit
             BitmapImage btn2image = new BitmapImage(new Uri(Path.Combine(basePath, "info.png")));
             BitmapImage btn3image = new BitmapImage(new Uri(Path.Combine(basePath, "bimcap.jpg")));
             BitmapImage btn4image = new BitmapImage(new Uri(Path.Combine(basePath, "plugin2.png")));
+            BitmapImage btn5image = new BitmapImage(new Uri(Path.Combine(basePath, "TitleBlockEditor.png")));
+            BitmapImage btn6image = new BitmapImage(new Uri(Path.Combine(basePath, "GridBubbleToggle.png")));
+            BitmapImage btn7image = new BitmapImage(new Uri(Path.Combine(basePath, "GridDimensionAlign.png")));
 
             // tab ->
             application.CreateRibbonTab(tabName);
@@ -48,21 +51,42 @@ namespace bimkit
             var pluginPanel3 = application.CreateRibbonPanel(tabName, panelName3);
 
             // plugin button ->
-            var pluginBtn = new PushButtonData("Isolate Warning Elements", "Isolate Warnings", Assembly.GetExecutingAssembly().Location, "bimkit.ShowIsolateUI");
+            var pluginBtn = new PushButtonData("Isolate Warning Elements", "Isolate\nWarnings", Assembly.GetExecutingAssembly().Location, "bimkit.ShowIsolateUI");
             pluginBtn.ToolTip = "Isolate Warning Elements";
             pluginBtn.LongDescription = "Isolate elements in your Revit model that have specific warnings. This tool helps you quickly identify and focus on problematic areas, allowing for efficient troubleshooting and resolution of issues.";
             pluginBtn.LargeImage = btn1image;
             pluginBtn.SetContextualHelp(new ContextualHelp(ContextualHelpType.Url, "https://apps.autodesk.com/RVT/en/Detail/HelpDoc?appId=7415951906221934357&appLang=en&os=Win64&mode=preview"));
 
-            var pluginBtn2 = new PushButtonData("Align Tags", "Align Tags", Assembly.GetExecutingAssembly().Location, "bimkit.ShowAlignTagUI");
+            var pluginBtn2 = new PushButtonData("Align Tags", "Align\n     Tags     ", Assembly.GetExecutingAssembly().Location, "bimkit.ShowAlignTagUI");
             pluginBtn2.ToolTip = "Align Tags";
             pluginBtn2.LongDescription = "Align tags in your Revit model to improve clarity and presentation. This tool ensures that tags are neatly arranged, enhancing the visual organization of your drawings and documentation.";
             pluginBtn2.LargeImage = btn4image;
             pluginBtn2.SetContextualHelp(new ContextualHelp(ContextualHelpType.Url, "https://apps.autodesk.com/RVT/en/Detail/HelpDoc?appId=7415951906221934357&appLang=en&os=Win64&mode=preview"));
 
+            var pluginBtn3 = new PushButtonData("Select Title-blocks", "Select\nTitle-blocks", Assembly.GetExecutingAssembly().Location, "bimkit.ShowTitleBlockUI");
+            pluginBtn3.ToolTip = "Select Title-blocks";
+            pluginBtn3.LongDescription = "Quickly select title blocks in your Revit project. This tool simplifies workflows by allowing easy selection and management of multiple title blocks at once.";
+            pluginBtn3.LargeImage = btn5image;
+            pluginBtn3.SetContextualHelp(new ContextualHelp(ContextualHelpType.Url, "https://apps.autodesk.com/RVT/en/Detail/HelpDoc?appId=7415951906221934357&appLang=en&os=Win64&mode=preview"));
+
+            var pluginBtn4 = new PushButtonData("Toggle Grid Bubbles", "Toggle\nGrid Bubbles", Assembly.GetExecutingAssembly().Location, "bimkit.ShowGridBubbleUI");
+            pluginBtn4.ToolTip = "Toggle Grid Bubbles";
+            pluginBtn4.LongDescription = "Toggle the visibility of grid bubbles in your project. This tool helps maintain a cleaner and more organized view during documentation.";
+            pluginBtn4.LargeImage = btn6image;
+            pluginBtn4.SetContextualHelp(new ContextualHelp(ContextualHelpType.Url, "https://apps.autodesk.com/RVT/en/Detail/HelpDoc?appId=7415951906221934357&appLang=en&os=Win64&mode=preview"));
+
+            var pluginBtn5 = new PushButtonData("Align Grid Dimension", "Align Grid\nDimensions", Assembly.GetExecutingAssembly().Location, "bimkit.sheet_tools.gridDimensionAlign_feature.gridDimensionAlign");
+            pluginBtn5.ToolTip = "Align Grid Dimensions";
+            pluginBtn5.LongDescription = "Align grid dimensions in your Revit model for improved accuracy and consistent presentation of drawings.";
+            pluginBtn5.LargeImage = btn7image;
+            pluginBtn5.SetContextualHelp(new ContextualHelp(ContextualHelpType.Url, "https://apps.autodesk.com/RVT/en/Detail/HelpDoc?appId=7415951906221934357&appLang=en&os=Win64&mode=preview"));
+
             // add button to panel ->
             var btn1 = pluginPanel2.AddItem(pluginBtn) as PushButton;
             var btn2 = pluginPanel3.AddItem(pluginBtn2) as PushButton;
+            var btn3 = pluginPanel3.AddItem(pluginBtn3) as PushButton;
+            var btn4 = pluginPanel3.AddItem(pluginBtn4) as PushButton;
+            var btn5 = pluginPanel3.AddItem(pluginBtn5) as PushButton;
 
             // stacked buttons ->
 

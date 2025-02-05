@@ -71,6 +71,16 @@
     <Compile Include="sheet_tools\alignTags_feature\alignTagUI.xaml.cs">
       <DependentUpon>alignTagUI.xaml</DependentUpon>
     </Compile>
+    <Compile Include="sheet_tools\gridBubbleToggle_feature\GridActionWindow.xaml.cs">
+      <DependentUpon>GridActionWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="sheet_tools\gridDimensionAlign_feature\gridDimensionAlign.cs" />
+    <Compile Include="sheet_tools\titleBlockEditor_feature\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="sheet_tools\titleBlockEditor_feature\SheetPropertiesWindow.xaml.cs">
+      <DependentUpon>SheetPropertiesWindow.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="bimkit.addin" />
@@ -89,6 +99,18 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="sheet_tools\gridBubbleToggle_feature\GridActionWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="sheet_tools\titleBlockEditor_feature\MainWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="sheet_tools\titleBlockEditor_feature\SheetPropertiesWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\bimcap2.png">
@@ -97,15 +119,28 @@
     <Resource Include="Resources\info.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\plugin.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
     <Resource Include="Resources\favicon.ico">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Resources\GridBubbleToggle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\TitleBlockEditor.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\plugin.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="Resources\plugin2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\GridDimensionAlign.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>
@@ -138,6 +173,9 @@ copy "%25PROJECT_DIR%25Resources\info.png" "%25ADDIN_DIR%25\%25PLUGIN_DIR%25\Res
 copy "%25PROJECT_DIR%25Resources\plugin.png" "%25ADDIN_DIR%25\%25PLUGIN_DIR%25\Resources"
 copy "%25PROJECT_DIR%25Resources\plugin2.png" "%25ADDIN_DIR%25\%25PLUGIN_DIR%25\Resources"
 copy "%25PROJECT_DIR%25Resources\bimcap2.png" "%25ADDIN_DIR%25\%25PLUGIN_DIR%25\Resources"
-copy "%25PROJECT_DIR%25Resources\favicon.ico" "%25ADDIN_DIR%25\%25PLUGIN_DIR%25\Resources"</PostBuildEvent>
+copy "%25PROJECT_DIR%25Resources\favicon.ico" "%25ADDIN_DIR%25\%25PLUGIN_DIR%25\Resources"
+copy "%25PROJECT_DIR%25Resources\GridBubbleToggle.png" "%25ADDIN_DIR%25\%25PLUGIN_DIR%25\Resources"
+copy "%25PROJECT_DIR%25Resources\GridDimensionAlign.png" "%25ADDIN_DIR%25\%25PLUGIN_DIR%25\Resources"
+copy "%25PROJECT_DIR%25Resources\TitleBlockEditor.png" "%25ADDIN_DIR%25\%25PLUGIN_DIR%25\Resources"</PostBuildEvent>
   </PropertyGroup>
 </Project>

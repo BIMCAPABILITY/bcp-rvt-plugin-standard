@@ -21,7 +21,7 @@
                     <Button Content="X" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,10,0" Click="Button_Click_1" Background="Transparent" Foreground="White" BorderBrush="Transparent"/>
                 </Grid>
             </Border>
-            <TextBlock HorizontalAlignment="Right" Margin="0,45,30,0" TextWrapping="Wrap" Text="Version: 1.0.0" VerticalAlignment="Top"/>
+            <TextBlock HorizontalAlignment="Right" Margin="0,45,30,0" TextWrapping="Wrap" Text="Version: 1.1.0" VerticalAlignment="Top"/>
             <TextBlock HorizontalAlignment="Right" Margin="0,61,30,0" TextWrapping="Wrap" Text="Align tags effortlessly with the ease of this tool." VerticalAlignment="Top"/>
             <Label Margin="25,90,0,0" Content="Spacing between tags" FontSize="16" FontWeight="Bold" Height="30" VerticalAlignment="Top" HorizontalAlignment="Left" Width="316"/>
             <Slider x:Name="OffsetSlider" HorizontalAlignment="Left" Margin="30,124,0,0" VerticalAlignment="Top" Width="284" Minimum="0" Maximum="5000" ValueChanged="OffsetSlider_ValueChanged"/>
@@ -30,7 +30,7 @@
             <Label Margin="25,156,0,0" Content="Select leader angle" FontSize="16" FontWeight="Bold" HorizontalAlignment="Left" Width="269" Height="32" VerticalAlignment="Top"/>
             <RadioButton x:Name="Angle90RadioButton" Content="90°" HorizontalAlignment="Left" Margin="30,193,0,0" VerticalAlignment="Top" IsChecked="True"/>
             <RadioButton x:Name="Angle45RadioButton" Content="45°" HorizontalAlignment="Left" Margin="135,192,0,0" VerticalAlignment="Top"/>
-            <Button Content="Align" HorizontalAlignment="Right" Margin="0,180,30,0" VerticalAlignment="Top" Height="30" Width="100" Click="AlignButton_Click"/>
+            <Button Content="Align" HorizontalAlignment="Right" Margin="0,180,30,0" VerticalAlignment="Top" Height="30" Width="100" Click="AlignButton_Click" BorderBrush="Green"/>
             <TextBlock HorizontalAlignment="Left" Margin="30,224,0,0" VerticalAlignment="Top">
                 <Hyperlink NavigateUri="https://www.bimcap.com/" RequestNavigate="Hyperlink_RequestNavigate">
                     <Run Text="Copyright © 2024 BIMCAP"/>
