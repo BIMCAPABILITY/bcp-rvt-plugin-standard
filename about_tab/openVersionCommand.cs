@@ -18,8 +18,8 @@ namespace bimkit.about_tab
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
             // Define the plugin version and release date
-            string pluginVersion = "1.1.0"; // Update this to the actual plugin version
-            string releaseDate = "25-11-2024"; // Today's date, update this for future releases
+            string pluginVersion = "1.2.0"; // Update this to the actual plugin version
+            string releaseDate = "30-04-2025"; // Today's date, update this for future releases
 
             // Define additional plugin details
             string developerInfo = "Developed by BIMKIT Team"; // Replace with your team or company name

@@ -1,0 +1,52 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:av="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="av" x:Class="bimkit.sheet_tools.autoTag_feature.autoTagUI"
+        Title="AutoTagging Options" WindowStyle="None" AllowsTransparency="True" Height="340" Width="500">
+    <Border BorderBrush="Black" BorderThickness="1">
+        <Grid>
+            <!-- Custom Title Bar -->
+            <Border Height="40" VerticalAlignment="Top" MouseDown="TitleBar_MouseDown">
+                <Border.Background>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#3264c8" Offset="0"/>
+                        <GradientStop Color="#090b3c" Offset="1"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+                <Grid>
+                    <TextBlock Text="BIMKit" Foreground="White" FontSize="20" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                    <Button Content="X" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,10,0" Click="CloseButton_Click" Background="Transparent" Foreground="White" BorderBrush="Transparent"/>
+                </Grid>
+            </Border>
+
+            <!-- Main Content -->
+            <TextBlock HorizontalAlignment="Right" Margin="0,45,30,0" TextWrapping="Wrap" Text="Version: 1.2.0" VerticalAlignment="Top"/>
+            <TextBlock HorizontalAlignment="Right" Margin="0,61,30,0" TextWrapping="Wrap" Text="Resolve 2D tag clashes in plan views" VerticalAlignment="Top"/>
+            <StackPanel Margin="30,70,30,20" VerticalAlignment="Top">
+                <TextBlock Text="Select Tag Categories:" FontSize="14" FontWeight="Bold"/>
+                <ListBox x:Name="CategoryListBox" Height="100" Margin="0,10,120,10">
+
+                </ListBox>
+
+                <Button Name="SelectAllButton" Content="Deselect All" HorizontalAlignment="Right" Width="100" Height="30" Margin="0,-40,0,10" Click="SelectAllButton_Click"/>
+
+                <TextBlock Text="Clash Fix Iterations:" FontSize="14" FontWeight="Bold"/>
+
+                <StackPanel Orientation="Horizontal" Margin="0,5,0,0" VerticalAlignment="Center">
+                    <!-- Dynamic current value -->
+                    <TextBlock Width="13" Text="{Binding ElementName=IterationSlider, Path=Value}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Margin="0,0,0,0"/>
+                    <!-- Slider -->
+                    <Slider x:Name="IterationSlider" Minimum="0" Maximum="10" Value="3" TickFrequency="1" IsSnapToTickEnabled="True" Width="375"/>
+                    <!-- Max label -->
+                    <TextBlock Width="50" Text="10 max" HorizontalAlignment="Right" VerticalAlignment="top" FontWeight="Bold" Margin="0,0,0,0"/>
+                </StackPanel>
+
+                <TextBlock Text="Higher iterations = better clash resolution but slower." FontSize="12" Foreground="Gray" Margin="0,5,0,15"/>
+
+                <Button Content="Fix Annotation Clashes" Width="150" Height="30" HorizontalAlignment="Right" BorderBrush="Green" Click="FixButton_Click"/>
+
+                <TextBlock HorizontalAlignment="Left" Margin="0,-13,0,0" VerticalAlignment="Top"><Hyperlink NavigateUri="https://www.bimcap.com/" RequestNavigate="Hyperlink_RequestNavigate"><Run Text="Copyright © 2024 BIMCAP"/></Hyperlink></TextBlock>
+            </StackPanel>
+        </Grid>
+    </Border>
+</Window>

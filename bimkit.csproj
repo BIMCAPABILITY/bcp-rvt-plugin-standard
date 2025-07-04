@@ -71,6 +71,10 @@
     <Compile Include="sheet_tools\alignTags_feature\alignTagUI.xaml.cs">
       <DependentUpon>alignTagUI.xaml</DependentUpon>
     </Compile>
+    <Compile Include="sheet_tools\autoTag_feature\autoTag.cs" />
+    <Compile Include="sheet_tools\autoTag_feature\autoTagUI.xaml.cs">
+      <DependentUpon>autoTagUI.xaml</DependentUpon>
+    </Compile>
     <Compile Include="sheet_tools\gridBubbleToggle_feature\GridActionWindow.xaml.cs">
       <DependentUpon>GridActionWindow.xaml</DependentUpon>
     </Compile>
@@ -96,6 +100,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="sheet_tools\alignTags_feature\alignTagUI.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="sheet_tools\autoTag_feature\autoTagUI.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -141,6 +149,11 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\GridDimensionAlign.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\autoTag.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>

@@ -42,6 +42,7 @@ namespace bimkit
             BitmapImage btn5image = new BitmapImage(new Uri(Path.Combine(basePath, "TitleBlockEditor.png")));
             BitmapImage btn6image = new BitmapImage(new Uri(Path.Combine(basePath, "GridBubbleToggle.png")));
             BitmapImage btn7image = new BitmapImage(new Uri(Path.Combine(basePath, "GridDimensionAlign.png")));
+            BitmapImage btn8image = new BitmapImage(new Uri(Path.Combine(basePath, "autoTag.png")));
 
             // tab ->
             application.CreateRibbonTab(tabName);
@@ -81,14 +82,19 @@ namespace bimkit
             pluginBtn5.LargeImage = btn7image;
             pluginBtn5.SetContextualHelp(new ContextualHelp(ContextualHelpType.Url, "https://apps.autodesk.com/RVT/en/Detail/HelpDoc?appId=7415951906221934357&appLang=en&os=Win64&mode=preview"));
 
+            var pluginBtn6 = new PushButtonData("Auto Tag", "Auto\n     Tags     ", Assembly.GetExecutingAssembly().Location, "bimkit.sheet_tools.autoTag_feature.autoTag");
+            pluginBtn6.ToolTip = "Auto Tag";
+            pluginBtn6.LongDescription = "Automatically generate annotation tags for supported categories and resolve 2D tag clashes in plan views. This tool intelligently detects overlapping tag positions and repositions them with minimal conflict. Currently supports 2D tag placement only — 3D tag clash resolution is under development.";
+            pluginBtn6.LargeImage = btn8image;
+            pluginBtn6.SetContextualHelp(new ContextualHelp(ContextualHelpType.Url, "https://apps.autodesk.com/RVT/en/Detail/HelpDoc?appId=7415951906221934357&appLang=en&os=Win64&mode=preview"));
+
             // add button to panel ->
             var btn1 = pluginPanel2.AddItem(pluginBtn) as PushButton;
             var btn2 = pluginPanel3.AddItem(pluginBtn2) as PushButton;
+            var btn6 = pluginPanel3.AddItem(pluginBtn6) as PushButton;
             var btn3 = pluginPanel3.AddItem(pluginBtn3) as PushButton;
             var btn4 = pluginPanel3.AddItem(pluginBtn4) as PushButton;
             var btn5 = pluginPanel3.AddItem(pluginBtn5) as PushButton;
-
-            // stacked buttons ->
 
             // stacked buttons ->
             var aboutBimcapBtn = new PushButtonData("aboutBimcapBtn", "BIMCAP", Assembly.GetExecutingAssembly().Location, "bimkit.about_tab.OpenWebsiteCommand");

@@ -28,3 +28,5 @@ C:\Users\SandeepSikdar\source\repos\bimkit\obj\Debug\sheet_tools\titleBlockEdito
 C:\Users\SandeepSikdar\source\repos\bimkit\obj\Debug\sheet_tools\titleBlockEditor_feature\SheetPropertiesWindow.baml
 C:\Users\SandeepSikdar\source\repos\bimkit\obj\Debug\sheet_tools\titleBlockEditor_feature\MainWindow.g.cs
 C:\Users\SandeepSikdar\source\repos\bimkit\obj\Debug\sheet_tools\titleBlockEditor_feature\SheetPropertiesWindow.g.cs
+C:\Users\SandeepSikdar\source\repos\bimkit\obj\Debug\sheet_tools\autoTag_feature\autoTagUI.baml
+C:\Users\SandeepSikdar\source\repos\bimkit\obj\Debug\sheet_tools\autoTag_feature\autoTagUI.g.cs

@@ -21,7 +21,6 @@ namespace bimkit.sheet_tools.alignTags_feature
         private readonly Document _doc;
         public double Offset { get; private set; }
         public double SelectedAngle { get; private set; }
-
         public alignTagUI(ExternalCommandData commandData)
         {
             InitializeComponent();
@@ -36,7 +35,7 @@ namespace bimkit.sheet_tools.alignTags_feature
             OffsetTextBox.Text = Offset.ToString("F0");
             // Set the slider's initial value to match the default offset
             OffsetSlider.Value = Offset;
-            SetTitleBarImage(); // Set the title bar image on initialization
+            //SetTitleBarImage(); // Set the title bar image on initialization
 
             // Add event handler for text box changes
             OffsetTextBox.TextChanged += OffsetTextBox_TextChanged;
@@ -76,22 +75,22 @@ namespace bimkit.sheet_tools.alignTags_feature
             //this.DialogResult = true;
             //this.Close();
         }
-        public void SetTitleBarImage()
-        {
-            // Define the base path for the plugin resources
-            string basePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "Autodesk", "ApplicationPlugins", "BIMKIT.bundle", "Contents", "Resources");
-            string imagePath = Path.Combine(basePath, "bimcap2.png");
+        //public void SetTitleBarImage()
+        //{
+        //    // Define the base path for the plugin resources
+        //    string basePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "Autodesk", "ApplicationPlugins", "BIMKIT.bundle", "Contents", "Resources");
+        //    string imagePath = Path.Combine(basePath, "bimcap2.png");
 
-            if (File.Exists(imagePath))
-            {
-                TitleBarImage.Source = new BitmapImage(new Uri(imagePath));
-            }
-            else
-            {
-                // Handle the case where the image file does not exist
-                MessageBox.Show("Image file not found: " + imagePath);
-            }
-        }
+        //    if (File.Exists(imagePath))
+        //    {
+        //        TitleBarImage.Source = new BitmapImage(new Uri(imagePath));
+        //    }
+        //    else
+        //    {
+        //        // Handle the case where the image file does not exist
+        //        MessageBox.Show("Image file not found: " + imagePath);
+        //    }
+        //}
 
         private void Hyperlink_RequestNavigate(object sender, RequestNavigateEventArgs e)
         {

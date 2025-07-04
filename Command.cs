@@ -51,7 +51,6 @@ namespace bimkit
 
                 // Create and show the isolateUI window
                 isolateUI view = new isolateUI(commandData);
-                view.SetTitleBarImage(); 
                 view.ShowDialog();
             }
             catch (Exception ex)
@@ -76,7 +75,6 @@ namespace bimkit
             {
                 // Create and show the alignTagUI window
                 alignTagUI view = new alignTagUI(commandData);
-                view.SetTitleBarImage();
                 view.ShowDialog();
             }
             catch (Exception ex)

@@ -17,11 +17,11 @@
                     </LinearGradientBrush>
                 </Border.Background>
                 <Grid>
-                    <Image x:Name="TitleBarImage" Height="30" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0"/>
+                    <TextBlock Text="BIMKit" Foreground="White" FontSize="20" VerticalAlignment="Center" Margin="10,0,0,0"/>
                     <Button Content="X" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,10,0" Click="Button_Click_1" Background="Transparent" Foreground="White" BorderBrush="Transparent"/>
                 </Grid>
             </Border>
-            <TextBlock HorizontalAlignment="Right" Margin="0,45,30,0" TextWrapping="Wrap" Text="Version: 1.1.0" VerticalAlignment="Top"/>
+            <TextBlock HorizontalAlignment="Right" Margin="0,45,30,0" TextWrapping="Wrap" Text="Version: 1.2.0" VerticalAlignment="Top"/>
             <TextBlock HorizontalAlignment="Right" Margin="0,61,30,0" TextWrapping="Wrap" Text="Align tags effortlessly with the ease of this tool." VerticalAlignment="Top"/>
             <Label Margin="25,90,0,0" Content="Spacing between tags" FontSize="16" FontWeight="Bold" Height="30" VerticalAlignment="Top" HorizontalAlignment="Left" Width="316"/>
             <Slider x:Name="OffsetSlider" HorizontalAlignment="Left" Margin="30,124,0,0" VerticalAlignment="Top" Width="284" Minimum="0" Maximum="5000" ValueChanged="OffsetSlider_ValueChanged"/>

@@ -30,7 +30,7 @@ namespace bimkit.sheet_tools.titleBlockEditor_feature
             _uidoc = uidoc;
             _doc = uidoc.Document;
             LoadSheetsWithTitleBlocks();
-            SetTitleBarImage();
+            //SetTitleBarImage();
             SheetListBox.PreviewMouseWheel += SheetListBox_PreviewMouseWheel;
         }
         private void SheetListBox_PreviewMouseWheel(object sender, MouseWheelEventArgs e)
@@ -52,20 +52,20 @@ namespace bimkit.sheet_tools.titleBlockEditor_feature
             T parent = parentObject as T;
             return parent ?? FindVisualParent<T>(parentObject);
         }
-        public void SetTitleBarImage()
-        {
-            string basePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "Autodesk", "ApplicationPlugins", "BIMKIT.bundle", "Contents", "Resources");
-            string imagePath = Path.Combine(basePath, "bimcap2.png");
+        //public void SetTitleBarImage()
+        //{
+        //    string basePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "Autodesk", "ApplicationPlugins", "BIMKIT.bundle", "Contents", "Resources");
+        //    string imagePath = Path.Combine(basePath, "bimcap2.png");
 
-            if (File.Exists(imagePath))
-            {
-                TitleBarImage.Source = new BitmapImage(new Uri(imagePath));
-            }
-            else
-            {
-                MessageBox.Show("Image file not found: " + imagePath);
-            }
-        }
+        //    if (File.Exists(imagePath))
+        //    {
+        //        TitleBarImage.Source = new BitmapImage(new Uri(imagePath));
+        //    }
+        //    else
+        //    {
+        //        MessageBox.Show("Image file not found: " + imagePath);
+        //    }
+        //}
         private void Hyperlink_RequestNavigate(object sender, RequestNavigateEventArgs e)
         {
             Process.Start(new ProcessStartInfo(e.Uri.AbsoluteUri) { UseShellExecute = true });

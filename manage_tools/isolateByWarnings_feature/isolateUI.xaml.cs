@@ -18,22 +18,22 @@ namespace bimkit
 {
     public partial class isolateUI : Window, INotifyPropertyChanged
     {
-        public void SetTitleBarImage()
-        {
-            // Define the base path for the plugin resources
-            string basePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "Autodesk", "ApplicationPlugins", "BIMKIT.bundle", "Contents", "Resources");
-            string imagePath = Path.Combine(basePath, "bimcap2.png");
+        //public void SetTitleBarImage()
+        //{
+        //    // Define the base path for the plugin resources
+        //    string basePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "Autodesk", "ApplicationPlugins", "BIMKIT.bundle", "Contents", "Resources");
+        //    string imagePath = Path.Combine(basePath, "bimcap2.png");
 
-            if (File.Exists(imagePath))
-            {
-                TitleBarImage.Source = new BitmapImage(new Uri(imagePath));
-            }
-            else
-            {
-                // Handle the case where the image file does not exist
-                MessageBox.Show("Image file not found: " + imagePath);
-            }
-        }
+        //    if (File.Exists(imagePath))
+        //    {
+        //        TitleBarImage.Source = new BitmapImage(new Uri(imagePath));
+        //    }
+        //    else
+        //    {
+        //        // Handle the case where the image file does not exist
+        //        MessageBox.Show("Image file not found: " + imagePath);
+        //    }
+        //}
         private void Hyperlink_RequestNavigate(object sender, RequestNavigateEventArgs e)
         {
             Process.Start(new ProcessStartInfo(e.Uri.AbsoluteUri) { UseShellExecute = true });

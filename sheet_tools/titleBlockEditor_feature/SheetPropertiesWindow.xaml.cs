@@ -22,23 +22,22 @@ namespace bimkit.sheet_tools.titleBlockEditor_feature
             _doc = doc;
             _selectedTitleBlockIds = selectedTitleBlockIds;
             LoadCommonProperties();
-            SetTitleBarImage();
         }
 
-        public void SetTitleBarImage()
-        {
-            string basePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "Autodesk", "ApplicationPlugins", "BIMKIT.bundle", "Contents", "Resources");
-            string imagePath = Path.Combine(basePath, "bimcap2.png");
+        //public void SetTitleBarImage()
+        //{
+        //    string basePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "Autodesk", "ApplicationPlugins", "BIMKIT.bundle", "Contents", "Resources");
+        //    string imagePath = Path.Combine(basePath, "bimcap2.png");
 
-            if (File.Exists(imagePath))
-            {
-                TitleBarImage.Source = new BitmapImage(new Uri(imagePath));
-            }
-            else
-            {
-                MessageBox.Show("Image file not found: " + imagePath);
-            }
-        }
+        //    if (File.Exists(imagePath))
+        //    {
+        //        TitleBarImage.Source = new BitmapImage(new Uri(imagePath));
+        //    }
+        //    else
+        //    {
+        //        MessageBox.Show("Image file not found: " + imagePath);
+        //    }
+        //}
 
         private void Hyperlink_RequestNavigate(object sender, RequestNavigateEventArgs e)
         {
